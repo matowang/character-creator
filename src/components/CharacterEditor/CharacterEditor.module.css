@@ -8,6 +8,7 @@
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -27,4 +28,12 @@
 }
 
 .controlColumn {
+}
+
+.backdrop {
+  position: fixed;
+  top: 40dvh;
+  height: 60dvh;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
 }
